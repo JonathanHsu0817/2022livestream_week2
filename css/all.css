@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 42px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #000;
+}
+
+.text-primary {
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 1.325;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 84px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 42px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.lh {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.d-flex {
+  display: flex;
+}
+.d-flex.jcc {
+  justify-content: center;
+}
+.d-flex.jcsd {
+  justify-content: space-around;
+}
+.d-flex.jcsb {
+  justify-content: space-between;
+}
+.d-flex.aic {
+  align-items: center;
+}
+.d-flex.fxww {
+  flex-wrap: wrap;
+}
+
+.tac {
+  text-align: center;
+}
+
+.banner {
+  background-image: url("../img/banner.png");
+}
+.banner .slogan {
+  width: 304px;
+}
+.banner .slogan h3 {
+  width: 300px;
+  margin: 0 auto 40px;
+}
+
+.about {
+  font-weight: 700;
+}
+.about .border {
+  padding-bottom: 24px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 27px;
+}
+.about .circle {
+  width: 22px;
+  height: 22px;
+  background: #891818;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.main-content {
+  padding: 56px 0 120px;
+  background: #000;
+  color: #fff;
+}
+.main-content p {
+  font-size: 20px;
+}
+.main-content .product-list {
+  width: 1360px;
+  margin: 0 auto;
+}
+.main-content .product-list img {
+  padding: 0 12px;
+  margin-bottom: 40px;
+}
+
+.others {
+  padding: 56px 0 96px;
+}
+.others p {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.others .container {
+  margin: 0 auto;
+}
+.others .container .card-s, .others .container .card-m {
+  margin-bottom: 48px;
+}
+.others .container .card-s img, .others .container .card-m img {
+  margin-bottom: 16px;
+}
+
+.contact {
+  padding: 64px 0;
+}
+.contact li {
+  line-height: 1.5;
+}
+
+.py308 {
+  padding: 308px 0;
+}
+
+.mb4 {
+  margin-bottom: 4px;
+}
+.mb8 {
+  margin-bottom: 8px;
+}
+.mb12 {
+  margin-bottom: 12px;
+}
+.mb16 {
+  margin-bottom: 16px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb28 {
+  margin-bottom: 28px;
+}
+.mb32 {
+  margin-bottom: 32px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.mb48 {
+  margin-bottom: 48px;
+}
+.mb56 {
+  margin-bottom: 56px;
+}
+.mb68 {
+  margin-bottom: 68px;
+}
+.mb96 {
+  margin-bottom: 96px;
+}/*# sourceMappingURL=all.css.map */
