@@ -1,0 +1,96 @@
+footer{
+    background-color: #000;
+}
+
+.banner{
+    background-image: url("../img/banner.png");
+    height: 100vh;
+    background-size: cover;
+    .slogan{
+        width: 304px;
+        h2{
+            width: 300px;
+            margin: 0 auto 40px;
+        }
+    }
+}
+
+.about{
+    font-weight: 700;
+    img:hover{
+        opacity: 100%;
+    }
+    .border{
+        padding-bottom: 24px;
+        margin-bottom: 27px;
+        position: relative;
+    }
+    .border::after{
+        content: "";
+        background: #000;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        left: 34.25%;
+        width: 384px;
+
+    }
+    .dot::before{
+        content:"";
+        width: 22px;
+        height: 22px;
+        background: $secondary-text-color;
+        border-radius: 50%;
+        margin-right: 16px;
+    }
+}
+
+.main-content{
+    padding: 56px 0 120px;
+    background: #000;
+    color: #fff;
+    h4{
+        font-size: $font-size-base-m;
+    }
+    p{
+        font-size: $font-size-base-sm;
+    }
+    .product-list{
+        width: 1360px;
+        margin: 0 auto;
+        img{
+            padding: 0 12px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.others{
+    margin: 56px 0 96px;
+    p{
+        font-weight: bold;
+        font-size: $font-size-base-sm;
+        line-height: 1.5;
+    }
+    .container{
+        margin: 0 auto;
+        .card{
+            &-s,&-m{
+                margin-bottom: 48px;
+                img{
+                    margin-bottom: 16px;
+                }
+            }
+        }
+    }
+}
+
+.contact{
+    padding: 64px 0;
+    li{
+        line-height: 1.5;
+        a:hover{
+            opacity: 80%;
+        }
+    }
+}
