@@ -7,12 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="banner d-flex jcc aic text-primary mb56">
+        <div class="banner d-flex jcc aic text-primary mb56" data-aos="fade-up">
             <div class="slogan">
                 <p>Here’s</p>
                 <h1>JOANNE</h1>
@@ -27,11 +28,11 @@
         </div>
     </header>
     <section class="about container tac">
-        <h3 class="mb40">About</h3>
-        <img src="img/photo.png" class="mb20" alt="photo">
-        <p class="mb4">Joanne Chen</p>
-        <p class="mb8">1997/10/10</p>
-        <p class="lh">National Hex School Normal University <br><div class="border">Department of Visual Design</div></p>
+        <h3 data-aos="fade-up" class="mb40">About</h3>
+        <img data-aos="fade-up" src="img/photo.png" class="mb20" alt="photo">
+        <p data-aos="fade-up" class="mb4">Joanne Chen</p>
+        <p data-aos="fade-up" class="mb8">1997/10/10</p>
+        <p data-aos="fade-up" class="lh">National Hex School Normal University <br><div class="border">Department of Visual Design</div></p>
         <ul>
             <li class="about-items mb28">
                 <p class="dot d-flex aic jcc">Founder of "XXXD Official"</p>
@@ -44,20 +45,20 @@
             </li>
         </ul>
     </section>
-    <section class="main-content tac">
-        <h3 class="mb12">My Brand "XXXD"</h3>
-        <h4 class="mb32">Just Keep XXXD Everyday</h4>
-        <p class="mb68 lh">2020 年創立的個人服飾品牌<br>引領叛逆少年開啟與社會對話的窗口<br>主打概念潮流T-Shirt</p>
+    <section class="main-content tac" data-aos="fade-up">
+        <h3 data-aos="fade-up" class="mb12">My Brand "XXXD"</h3>
+        <h4 data-aos="fade-up" class="mb32">Just Keep XXXD Everyday</h4>
+        <p data-aos="fade-up" class="mb68 lh">2020 年創立的個人服飾品牌<br>引領叛逆少年開啟與社會對話的窗口<br>主打概念潮流T-Shirt</p>
         <ul class="product-list d-flex jcc fxww">
             <li><img src="img/brand_img1.png" alt="product-photo" class="larger"></li>            
             <li><img src="img/brand_img2.png" alt="product-photo" class="smaller"></li>
             <li><img src="img/brand_img3.png" alt="product-photo" class="smaller"></li>
         </ul>
     </section>
-    <section class="others tac">
-        <h3 class="mb16">Other Works</h3>
-        <p class="mb56">2016-2020 年累積的作品<br>海報/廣告/攝影/LOGO/3D</p>
-        <ul class="container d-flex jcsb">
+    <section data-aos="fade-up" class="others tac" data-aos="fade-up">
+        <h3 data-aos="fade-up" class="mb16">Other Works</h3>
+        <p data-aos="fade-up" class="mb56">2016-2020 年累積的作品<br>海報/廣告/攝影/LOGO/3D</p>
+        <ul data-aos="zoom-in-left" class="container d-flex jcsb">
             <li class="card-s">
                 <img src="img/work_img1.png" alt="work1">
                 <h4>海報設計/2017</h4>
@@ -71,7 +72,7 @@
                 <h4>海報設計/2019</h4>
             </li>
         </ul>
-        <ul class="container d-flex jcsb">
+        <ul data-aos="zoom-in-right" class="container d-flex jcsb">
             <li class="card-m">
                 <img src="img/work_img4.png" alt="work4">
                 <h4>概念攝影/2017</h4>
@@ -81,7 +82,7 @@
                 <h4>概念攝影/2018</h4>
             </li>
         </ul>
-        <ul class="container d-flex jcsb">
+        <ul data-aos="zoom-in-left" class="container d-flex jcsb">
             <li class="card-s">
                 <img src="img/work_img6.png" alt="work6">
                 <h4>sasa 酒標設計/2019</h4>
@@ -105,5 +106,7 @@
             </ul>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/all.js"></script>
 </body>
 </html>
